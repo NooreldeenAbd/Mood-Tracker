@@ -11,11 +11,10 @@ import { Calendar } from 'react-native-calendars';
 
 function CalendarScreen() {
     return (
-
         <ScrollView style={{ backgroundColor: '#000' }}>
             <Calendar
                 style={{
-                    borderRadius: 10,
+                    borderRadius: 5,
                     margin: 10,
                     backgroundColor: '#3A3B3C',
                     paddingBottom: 10,
